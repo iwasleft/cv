@@ -4,6 +4,33 @@
 <head>
   <meta charset="utf-8">
   <title>Contact me</title>
+  <style>
+
+    body {text-align: center;
+      background-color: steelblue;
+      font: 1.2em "Fira Sans", sans-serif;
+    }
+
+    hr {
+      background-color: none;
+      border-color: grey;
+      border-style: dotted none none;
+      border-width: 10px;
+      width: 10%;
+      height: 1px;
+
+    }
+ul{
+text-align: start;
+list-style-position: inside;
+justify-content: center;
+}
+
+ol{text-align: start;
+  list-style-position: inside;
+  justify-content: center;
+}
+  </style>
 </head>
 
 <body>
@@ -16,17 +43,18 @@
     <li>Email : gregoireassous@hotmail.fr</li>
   </ul>
 
-<form action="mailto:gregoireassous@hotmail.fr" method="post" enctype="text/plain">
-  <label>Your name :</label><br>
-  <input type="text" name="yourName" value=""><br>
-  <label>Your e-mail :</label><br>
-  <input type="email" name="yourEmail" value=""><br>
-  <label>Your message :</label><br>
-<textarea name="yourMessage" rows="10" cols="80"></textarea>
-  <input type="submit">
-</form>
+  <form action="mailto:gregoireassous@hotmail.fr" method="post" enctype="text/plain">
+    <label>Your name :</label><br>
+    <input type="text" name="yourName" value=""><br>
+    <label>Your e-mail :</label><br>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Your message :</label><br>
+    <textarea name="yourMessage" rows="10" cols="80"></textarea>
+    <input type="submit">
+  </form>
 
 
 
 </body>
+
 </html>
