@@ -1,0 +1,33 @@
+
+  body {
+    text-align: center;
+    background-color: steelblue;
+    font: 1.2em "Fira Sans", sans-serif;
+  }
+
+  hr {
+    border-color: black;
+    border-style: dotted none none;
+    border-width: 10px;
+    width: 10%;
+  }
+
+h1{
+  color: black
+}
+
+h3{
+  color: #FFF6EA
+}
+
+ul{
+text-align: left;
+list-style-position: inside;
+justify-content: center;
+}
+
+ol{
+  text-align: left;
+list-style-position: inside;
+justify-content: center;
+}
